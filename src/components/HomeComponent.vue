@@ -23,39 +23,39 @@
         <div class="box-items-meio-1">
           <div class="box-receitas">
             <img src="../assets/home/Muffins.png" alt="" />
-            <a href="/sobre"
+            <a href="/criar"
               ><h3>Muffins de banana com gotas de chocolate</h3></a
             >
           </div>
           <div class="box-receitas-1">
             <img src="../assets/home/geladinho.png" alt="" />
-            <a href="/sobre"><h3>Geladinho, sacolé, chup chup ou juju</h3></a>
+            <a href="/criar"><h3>Geladinho, sacolé, chup chup ou juju</h3></a>
           </div>
           <div class="box-receitas">
             <img src="../assets/home/bolo.png" alt="" />
-            <a href="/sobre"
+            <a href="/criar"
               ><h3>Minibolo de cenoura com calda de chocolate</h3></a
             >
           </div>
           <div class="box-receitas-1">
             <img src="../assets/home/pizza.png" alt="" />
-            <a href="/sobre"><h3>Pizza de frigideira</h3></a>
+            <a href="/criar"><h3>Pizza de frigideira</h3></a>
           </div>
           <div class="box-receitas">
             <img src="../assets/home/pao-queijo.png" alt="" />
-            <a href="/sobre"><h3>Pão de queijo simples</h3></a>
+            <a href="/criar"><h3>Pão de queijo simples</h3></a>
           </div>
           <div class="box-receitas-1">
             <img src="../assets/home/danone.png" alt="" />
-            <a href="/sobre"><h3>Danoninho caseiro</h3></a>
+            <a href="/criar"><h3>Danoninho caseiro</h3></a>
           </div>
           <div class="box-receitas">
             <img src="../assets/home/brigadeiro.png" alt="" />
-            <a href="/sobre"><h3>Brigadeiro sem fogão</h3></a>
+            <a href="/criar"><h3>Brigadeiro sem fogão</h3></a>
           </div>
           <div class="box-receitas-1">
             <img src="../assets/home/biscoito.png" alt="" />
-            <a href="/sobre"><h3>Biscoito maravilha</h3></a>
+            <a href="/criar"><h3>Biscoito maravilha</h3></a>
           </div>
         </div>
       </div>
