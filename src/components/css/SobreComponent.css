@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container-geral-sobre {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+
+  section.box-inicio-sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #f0a3bd;
+
+    .box-content-inicio-sobre {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 100%;
+
+      .box-titulo-sobre {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: left;
+        flex-direction: column;
+        width: 500px;
+        gap: 10px;
+
+        h1 {
+          color: #fff;
+          font-family: "Lilita One", serif;
+          font-size: 40px;
+        }
+        p {
+          font-family: sans-serif;
+          color: #fff;
+        }
+        a {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 200px;
+          height: 40px;
+          background-color: #76c8f1;
+          color: #fff;
+          border-radius: 10px;
+          text-decoration: none;
+        }
+        a:hover {
+          background-color: #9ecbe1;
+        }
+      }
+      .box-image-sobre {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+  section.box-meio-sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    padding: 50px 0;
+
+    .box-text-image-sobre {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 100%;
+      gap: 20px;
+
+      h1 {
+        color: #000;
+        font-family: "Lilita One", serif;
+        font-size: 40px;
+      }
+      .box-geral-titulo-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        width: 100%;
+
+        .box-image-sobre {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 500px;
+
+          img {
+            width: 100%;
+          }
+        }
+        .box-titulo-sobre {
+          display: flex;
+          justify-content: flex-start;
+          align-items: flex-start;
+          text-align: left;
+          flex-direction: column;
+          width: 500px;
+          gap: 10px;
+
+          h2 {
+            font-family: "Lilita One", serif;
+            font-size: 25px;
+            color: #000;
+          }
+          p {
+            font-family: sans-serif;
+            color: #000;
+          }
+        }
+      }
+    }
+  }
+  section.box-fim-sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #9ecbe1;
+    padding: 50px 0;
+
+    .box-missao-valores {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      width: 100%;
+
+      .box-mesclado {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 300px;
+        border: 2px solid #f0a3bd;
+        padding: 20px;
+        gap: 10px;
+        border-radius: 30px;
+
+        h3 {
+          color: #fff;
+          font-family: "Lilita One", serif;
+          font-size: 30px;
+        }
+        p {
+          color: #fff;
+          font-family: sans-serif;
+        }
+      }
+    }
+  }
+  section.box-sobre-final {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 100px 0;
+    gap: 20px;
+
+    .box-ped-cod {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-direction: column;
+      width: 80%;
+      border: 1px solid #76c8f1;
+      border-radius: 10px;
+      padding: 20px 10px;
+
+      .content-itens {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+
+        .box-1 {
+          width: 400px;
+
+          .box-pedidos {
+            display: flex;
+            text-align: center;
+            gap: 5px;
+          }
+        }
+      }
+      .botao-evento,
+      .botao-evento-1 {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 10px;
+
+        button {
+          width: 150px;
+          height: 30px;
+          outline: none;
+          border: none;
+          color: #fff;
+          background-color: #f0a3bd;
+          border-radius: 5px;
+        }
+      }
+      .box-detalhes,
+      .box-detalhes-1 {
+        transition: all 0.3s ease;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        border-top: 1px solid #76c8f1;
+
+        .content-geral-detalhes {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          width: 100%;
+          gap: 50px;
+          padding: 30px 0;
+        }
+      }
+      .valor-total {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        padding: 0 50px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .container-geral-sobre {
+    section.box-inicio-sobre {
+      padding: 20px;
+      .box-content-inicio-sobre {
+        .box-titulo-sobre {
+          width: 100%;
+        }
+      }
+    }
+    section.box-sobre-final {
+      padding: 0 20px;
+      .box-ped-cod {
+        width: 100%;
+      }
+    }
+  }
+}

@@ -26,7 +26,12 @@ const routes = [
     path: '/feed',
     name: 'feed',
     component: () => import(/* webpackChunkName: "feed" */ '../components/FeedComponent.vue')
-  }
+  },
+  // {
+  //   path: '/contato',
+  //   name: 'contato',
+  //   component: () => import(/* webpackChunkName: "contato" */ '../components/ContatoComponent.vue')
+  // }
 ]
 
 const router = createRouter({

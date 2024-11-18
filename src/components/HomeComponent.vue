@@ -23,35 +23,39 @@
         <div class="box-items-meio-1">
           <div class="box-receitas">
             <img src="../assets/home/Muffins.png" alt="" />
-            <h3>Muffins de banana com gotas de chocolate</h3>
+            <a href="/sobre"
+              ><h3>Muffins de banana com gotas de chocolate</h3></a
+            >
           </div>
-          <div class="box-receitas">
+          <div class="box-receitas-1">
             <img src="../assets/home/geladinho.png" alt="" />
-            <h3>Geladinho, sacolé, chup chup ou juju</h3>
+            <a href="/sobre"><h3>Geladinho, sacolé, chup chup ou juju</h3></a>
           </div>
           <div class="box-receitas">
             <img src="../assets/home/bolo.png" alt="" />
-            <h3>Minibolo de cenoura com calda de chocolate</h3>
+            <a href="/sobre"
+              ><h3>Minibolo de cenoura com calda de chocolate</h3></a
+            >
           </div>
-          <div class="box-receitas">
+          <div class="box-receitas-1">
             <img src="../assets/home/pizza.png" alt="" />
-            <h3>Pizza de frigideira</h3>
+            <a href="/sobre"><h3>Pizza de frigideira</h3></a>
           </div>
           <div class="box-receitas">
             <img src="../assets/home/pao-queijo.png" alt="" />
-            <h3>Pão de queijo simples</h3>
+            <a href="/sobre"><h3>Pão de queijo simples</h3></a>
           </div>
-          <div class="box-receitas">
+          <div class="box-receitas-1">
             <img src="../assets/home/danone.png" alt="" />
-            <h3>Danoninho caseiro</h3>
+            <a href="/sobre"><h3>Danoninho caseiro</h3></a>
           </div>
           <div class="box-receitas">
             <img src="../assets/home/brigadeiro.png" alt="" />
-            <h3>Brigadeiro sem fogão</h3>
+            <a href="/sobre"><h3>Brigadeiro sem fogão</h3></a>
           </div>
-          <div class="box-receitas">
+          <div class="box-receitas-1">
             <img src="../assets/home/biscoito.png" alt="" />
-            <h3>Biscoito maravilha</h3>
+            <a href="/sobre"><h3>Biscoito maravilha</h3></a>
           </div>
         </div>
       </div>
@@ -68,7 +72,6 @@
             descobrem a magia de preparar pratos deliciosos com a família. Vamos
             cozinhar e se divertir?
           </p>
-
           <router-link to="/sobre">saiba mais</router-link>
         </div>
         <div class="box-image-section-2">
@@ -189,41 +192,10 @@
         </div>
       </div>
     </section>
-    <section class="box-section-contato">
-      <div class="box-content-contato">
-        <h1>cadastre-se para receber novas receitas</h1>
-        <div class="box-formulario-contato">
-          <input type="text" name="nome" id="txtNome" placeholder="Nome" />
-          <input
-            type="text"
-            name="phone"
-            id="txtPhone"
-            placeholder="Telefone"
-          />
-          <input type="email" name="email" id="txtEmail" placeholder="E-mail" />
-          <input
-            type="text"
-            name="logradouro"
-            id="txtRua"
-            placeholder="Logradouro"
-          />
-          <input
-            type="text"
-            name="numero"
-            id="txtNumero"
-            placeholder="Numero"
-          />
-          <input
-            type="text"
-            name="bairro"
-            id="txtBairro"
-            placeholder="Bairro"
-          />
-          <input type="text" name="cep" id="txtCEP" placeholder="CEP" />
-          <button class="btn-cont" type="submit">Enviar</button>
-        </div>
-      </div>
+    <section>
+      <ContatoComponent />
     </section>
   </div>
 </template>
 <style src="./css/HomeComponent.css" scoped></style>
+<script src="./js/HomeComponent.js" />

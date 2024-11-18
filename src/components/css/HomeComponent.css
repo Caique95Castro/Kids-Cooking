@@ -44,7 +44,7 @@
       p {
         color: #333333;
         font-size: 18px;
-        font-family: "Lilita One", serif;
+        font-family: sans-serif;
       }
     }
   }
@@ -79,7 +79,8 @@
         gap: 10px;
         padding-bottom: 50px;
 
-        .box-receitas {
+        .box-receitas,
+        .box-receitas-1 {
           display: flex;
           justify-content: center;
           align-items: center;
@@ -89,10 +90,35 @@
           img {
             width: 100%;
           }
-          h3 {
-            font-family: "Lilita One", serif;
-            font-weight: 400;
-            font-style: normal;
+        }
+        .box-receitas {
+          a {
+            text-decoration: none;
+            color: #000;
+
+            h3 {
+              font-family: "Lilita One", serif;
+              font-weight: 400;
+              font-style: normal;
+            }
+          }
+          a:hover {
+            color: #76c8f1;
+          }
+        }
+        .box-receitas-1 {
+          a {
+            text-decoration: none;
+            color: #000;
+
+            h3 {
+              font-family: "Lilita One", serif;
+              font-weight: 400;
+              font-style: normal;
+            }
+          }
+          a:hover {
+            color: #f681a8;
           }
         }
       }
@@ -273,6 +299,7 @@
           display: flex;
           justify-content: center;
           align-items: center;
+          flex-wrap: wrap;
           width: 100%;
 
           .box-titulo-caixa-1,
@@ -342,63 +369,6 @@
       }
     }
   }
-  section.box-section-contato {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    padding: 50px;
-
-    .box-content-contato {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      gap: 50px;
-      border: 1px solid #76c8f1;
-      border-radius: 20px;
-      padding: 50px 20px;
-
-      h1 {
-        font-weight: 400;
-        font-style: normal;
-        font-size: 30px;
-        font-family: "Lilita One", serif;
-      }
-
-      .box-formulario-contato {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        width: 500px;
-        gap: 10px;
-
-        input {
-          width: 100%;
-          padding: 7px;
-          outline: none;
-          border-radius: 5px;
-          border: 1px solid grey;
-        }
-
-        .btn-cont {
-          width: 150px;
-          height: 30px;
-          background-color: #9ecbe1;
-          border: none;
-          border-radius: 5px;
-          color: #000;
-          font-weight: bold;
-          cursor: pointer;
-        }
-        .btn-cont:hover {
-          background-color: #76c8f1;
-        }
-      }
-    }
-  }
 }
 @media screen and (max-width: 768px) {
   .container-geral-home {
@@ -409,6 +379,10 @@
         align-items: center;
         width: 100%;
         padding: 50px 20px;
+
+        img {
+          width: 100%;
+        }
       }
     }
     section.box-section-meio-2 {
@@ -419,6 +393,21 @@
           align-items: center;
           width: 100%;
           padding: 20px;
+
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+    section.box-section-destaques {
+      padding: 0px 0px;
+      .box-content-destaques {
+        .box-destaques-site {
+          padding: 0 20px;
+          .box-destaques {
+            width: 100%;
+          }
         }
       }
     }
