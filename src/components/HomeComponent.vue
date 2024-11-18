@@ -23,39 +23,39 @@
         <div class="box-items-meio-1">
           <div class="box-receitas">
             <img src="../assets/home/Muffins.png" alt="" />
-            <a href="/criar"
+            <a href="/feed"
               ><h3>Muffins de banana com gotas de chocolate</h3></a
             >
           </div>
           <div class="box-receitas-1">
             <img src="../assets/home/geladinho.png" alt="" />
-            <a href="/criar"><h3>Geladinho, sacolé, chup chup ou juju</h3></a>
+            <a href="/feed"><h3>Geladinho, sacolé, chup chup ou juju</h3></a>
           </div>
           <div class="box-receitas">
             <img src="../assets/home/bolo.png" alt="" />
-            <a href="/criar"
+            <a href="/feed"
               ><h3>Minibolo de cenoura com calda de chocolate</h3></a
             >
           </div>
           <div class="box-receitas-1">
             <img src="../assets/home/pizza.png" alt="" />
-            <a href="/criar"><h3>Pizza de frigideira</h3></a>
+            <a href="/feed"><h3>Pizza de frigideira</h3></a>
           </div>
           <div class="box-receitas">
             <img src="../assets/home/pao-queijo.png" alt="" />
-            <a href="/criar"><h3>Pão de queijo simples</h3></a>
+            <a href="/feed"><h3>Pão de queijo simples</h3></a>
           </div>
           <div class="box-receitas-1">
             <img src="../assets/home/danone.png" alt="" />
-            <a href="/criar"><h3>Danoninho caseiro</h3></a>
+            <a href="/feed"><h3>Danoninho caseiro</h3></a>
           </div>
           <div class="box-receitas">
             <img src="../assets/home/brigadeiro.png" alt="" />
-            <a href="/criar"><h3>Brigadeiro sem fogão</h3></a>
+            <a href="/feed"><h3>Brigadeiro sem fogão</h3></a>
           </div>
           <div class="box-receitas-1">
             <img src="../assets/home/biscoito.png" alt="" />
-            <a href="/criar"><h3>Biscoito maravilha</h3></a>
+            <a href="/feed"><h3>Biscoito maravilha</h3></a>
           </div>
         </div>
       </div>
@@ -100,7 +100,7 @@
                 esse doce não precisa ser preparado no fogão, o preparo é
                 somente na geladeira. E quem não ama um bom brigadeiro né?
               </p>
-              <router-link to="/criar">Vamos Fazer ?</router-link>
+              <router-link to="/feed">Vamos Fazer ?</router-link>
             </div>
           </div>
           <div class="box-destaques">
@@ -112,7 +112,7 @@
                 ingredientes e é uma ideia simples para o seu dia de culinária
                 com as crianças.
               </p>
-              <router-link to="/criar">Vamos Fazer ?</router-link>
+              <router-link to="/feed">Vamos Fazer ?</router-link>
             </div>
             <div class="box-image-des">
               <img
@@ -140,7 +140,7 @@
                 ter um sabor doce irresistível, além de ser uma opção mais
                 saudável para toda a família. Vamos lá?
               </p>
-              <router-link to="/criar">Vamos Fazer ?</router-link>
+              <router-link to="/feed">Vamos Fazer ?</router-link>
             </div>
           </div>
         </div>
@@ -158,7 +158,7 @@
                 naturais, tem a consistência de uma mousse e a criançada adora
                 tomar a qualquer hora do dia.
               </p>
-              <router-link to="/criar">Criar</router-link>
+              <router-link to="/feed">Criar</router-link>
             </div>
             <div class="box-image-caixa-1">
               <img
@@ -179,7 +179,7 @@
                 precisa somente de alguns ingredientes que provavelmente você já
                 tem em casa.
               </p>
-              <router-link to="/criar">Criar</router-link>
+              <router-link to="/feed">Criar</router-link>
             </div>
             <div class="box-image-caixa-2">
               <img
