@@ -9,10 +9,8 @@
         <span></span>
       </div>
       <nav :class="{ 'menu-open': menuOpen }">
-        <router-link to="/">Home</router-link>
+        <router-link to="/">Início</router-link>
         <router-link to="/sobre">Sobre</router-link>
-        <router-link to="/login">Login</router-link>
-        <router-link to="/criar">Criar</router-link>
         <router-link to="/feed">Feed</router-link>
       </nav>
     </div>

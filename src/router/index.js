@@ -13,25 +13,10 @@ const routes = [
     component: () => import(/* webpackChunkName: "sobre" */ '../components/SobreComponent.vue')
   },
   {
-    path: '/login',
-    name: 'login',
-    component: () => import(/* webpackChunkName: "login" */ '../components/LoginComponent.vue')
-  },
-  {
-    path: '/criar',
-    name: 'criar',
-    component: () => import(/* webpackChunkName: "criar" */ '../components/CriarComponent.vue')
-  },
-  {
     path: '/feed',
     name: 'feed',
     component: () => import(/* webpackChunkName: "feed" */ '../components/FeedComponent.vue')
   },
-  // {
-  //   path: '/contato',
-  //   name: 'contato',
-  //   component: () => import(/* webpackChunkName: "contato" */ '../components/ContatoComponent.vue')
-  // }
 ]
 
 const router = createRouter({

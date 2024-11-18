@@ -33,33 +33,47 @@ section.box-section-contato {
       display: flex;
       justify-content: center;
       align-items: center;
-      flex-direction: column;
       width: 500px;
-      gap: 10px;
 
-      input {
+      form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
         width: 100%;
-        padding: 7px;
-        outline: none;
-        border-radius: 5px;
-        border: 1px solid rgb(197, 197, 197);
-      }
-      input:hover {
-        border: 1px solid #76c8f1;
-      }
+        gap: 10px;
 
-      .btn-cont {
-        width: 150px;
-        height: 30px;
-        background-color: #9ecbe1;
-        border: none;
-        border-radius: 5px;
-        color: #000;
-        font-weight: bold;
-        cursor: pointer;
-      }
-      .btn-cont:hover {
-        background-color: #76c8f1;
+        .error {
+          color: red;
+          font-size: 0.9em;
+          margin-top: -10px;
+          display: block;
+        }
+
+        input {
+          width: 100%;
+          padding: 7px;
+          outline: none;
+          border-radius: 5px;
+          border: 1px solid rgb(197, 197, 197);
+        }
+        input:hover {
+          border: 1px solid #76c8f1;
+        }
+
+        .btn-cont {
+          width: 150px;
+          height: 30px;
+          background-color: #9ecbe1;
+          border: none;
+          border-radius: 5px;
+          color: #000;
+          font-weight: bold;
+          cursor: pointer;
+        }
+        .btn-cont:hover {
+          background-color: #76c8f1;
+        }
       }
     }
   }
